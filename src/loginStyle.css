@@ -1,0 +1,34 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.loginPage {
+    border:1px #000000 solid;
+    width: 50%;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    margin: 2rem auto;
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 80vh;
+}
+.form input{
+    margin: 2rem 0;
+    padding: 1rem 0;
+    width: 50%;
+    text-align: center;
+}
+.form button {
+    padding: 0.5rem 2rem;
+    background: red;
+    color: #fff;
+}
